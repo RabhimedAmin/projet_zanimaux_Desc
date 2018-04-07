@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.102" fx:controller="projetzanimaux.FXML_VeterinController">
+   <children>
+      <Button contentDisplay="TOP" layoutX="157.0" layoutY="331.0" mnemonicParsing="false" onAction="#ajoutVeterinaire" prefHeight="35.0" prefWidth="134.0" text="Valider" textAlignment="CENTER" textFill="#474bba">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="80.0" layoutY="68.0" text="Nom" />
+      <Label layoutX="81.0" layoutY="108.0" text="Prénom" />
+      <Label layoutX="81.0" layoutY="154.0" text="Adresse mail" />
+      <Label layoutX="80.0" layoutY="193.0" text="Téléphone" />
+      <Label layoutX="81.0" layoutY="232.0" prefHeight="14.0" prefWidth="26.0" text="Lieux" />
+      <TextField fx:id="nomBtn" layoutX="159.0" layoutY="64.0" />
+      <TextField fx:id="prenomBtn" layoutX="159.0" layoutY="104.0" />
+      <TextField fx:id="mailBtn" layoutX="159.0" layoutY="150.0" />
+      <TextField fx:id="telBtn" layoutX="159.0" layoutY="189.0" />
+      <TextField fx:id="lieuxBtn" layoutX="159.0" layoutY="228.0" />
+      <Button fx:id="insertImgBtn" layoutX="164.0" layoutY="272.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="127.0" text="insérez image" />
+      <Label layoutX="81.0" layoutY="276.0" text="Image" />
+      <Label layoutX="79.0" layoutY="14.0" text="Ajoutez un vétérinaire" textFill="#ff1928">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
